@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.globoox.sprawdzsprzedawce.UserAreaActivity">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        card_view:cardCornerRadius="4dp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/loadingImageUserInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/loading" />
+
+        <RelativeLayout
+            android:id="@+id/userInfoSpace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- INFOMACJE O USERZE -->
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="15dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textViewSince"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textViewName"
+                android:layout_below="@+id/textViewName"
+                android:text="BANK" />
+
+
+            <!--  POZYTYWY NEGATYWY -->
+            <ImageView
+                android:id="@+id/iamgeViewPositive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/textViewName"
+                android:layout_marginEnd="88dp"
+                app:srcCompat="@drawable/ic_positive_user"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/textViewPositiveCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/iamgeViewPositive"
+                android:layout_marginEnd="94dp"
+                android:text="1" />
+
+
+            <ImageView
+                android:id="@+id/imageViewNeutral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/textViewName"
+                android:layout_marginEnd="53dp"
+                app:srcCompat="@drawable/ic_neutral_user"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/textViewNeutralCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/imageViewNeutral"
+                android:layout_marginEnd="62dp"
+                android:text="1" />
+
+
+            <ImageView
+                android:id="@+id/iamgeViewNegative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/textViewName"
+                android:layout_marginEnd="19dp"
+                app:srcCompat="@drawable/ic_negative_user"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/textViewNegativeCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/iamgeViewNegative"
+                android:layout_marginEnd="29dp"
+                android:text="1" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="100dp"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/loadingImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="31dp"
+                android:src="@drawable/loading" />
+
+
+            <ListView
+                android:id="@+id/listViewUserComments"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:divider="@null"
+                android:dividerHeight="10dp"
+                android:padding="4dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:id="@+id/textViewNoComments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Brak komentarzy przypisanych do tego numeru konta bankowego. Jeśli chcesz wystawić nową opinię kliknij przycisk znajdujacy w prawym dolnym rogu!" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAddComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="25dp"
+        android:src="@drawable/ic_add"
+        app:fabSize="normal" />
+
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent"
+        tools:context="pl.globoox.sprawdzsprzedawce.ContactActivity">
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/paragraf_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:text="Zanim napiszesz!"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/paragrafText_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragraf_1"
+                    android:padding="10dp"
+                    android:text="Zanim do nas napiszesz sprawdź dwukrotnie czy odpowiedź na Twoje pytanie nie znajduje się już w naszym serwisie.
+Jeśli już zdecydujesz się napisać prosimy o jak najlepszy opis sprawy abyśmy mogli dobrze zrozumieć Twój problem." />
+
+
+                <EditText
+                    android:id="@+id/editTextNick"
+                    android:hint="Przedstaw się..."
+                    android:maxLength="50"
+                    android:paddingTop="30dp"
+                    android:layout_below="@id/paragrafText_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editTextMail"
+                    android:hint="Podaj swój mail..."
+                    android:maxLength="50"
+                    android:inputType="textEmailAddress"
+                    android:layout_below="@id/editTextNick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:layout_below="@id/paragrafText_1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
+                    android:background="@android:color/holo_blue_bright"/>
+
+                <EditText
+                    android:id="@+id/editTextMessage"
+                    android:layout_below="@id/editTextMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="5dp"
+                    android:gravity="top|left"
+                    android:maxLength="1000"
+                    android:background="@null"
+                    android:scrollbars="vertical"
+                    android:ems="8"
+                    android:hint="Napisz co Cię trapi..."
+                    android:inputType="textMultiLine" />
+
+                <Button
+                    android:id="@+id/buttonSendMail"
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/card_view"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/blue_btn_bkg"
+                    android:text="WYŚLIJ WIADOMOŚĆ"
+                    android:textColor="#ffffff"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </RelativeLayout>
+</ScrollView>

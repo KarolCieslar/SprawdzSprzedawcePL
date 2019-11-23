@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@android:drawable/picture_frame" >
+
+
+    <ImageView
+        android:id="@+id/icProfile"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_profile" />
+
+    <TextView
+        android:id="@+id/textViewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/icProfile"
+        android:layout_toEndOf="@+id/icProfile"
+        android:text="Reklamodawca"
+        android:textStyle="bold|italic" />
+
+
+    <ImageView
+        android:id="@+id/icTime"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/icProfile"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/ic_time" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewUser"
+        android:layout_below="@+id/textViewUser"
+        android:text="chwilę temu"
+        android:textSize="10dp" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spacer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="2dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3713322008461460/4589393881">
+    </com.google.android.gms.ads.AdView>
+
+    <View
+        android:id="@+id/spacer"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_below="@id/textViewDate"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/darker_gray"/>
+
+
+</RelativeLayout>

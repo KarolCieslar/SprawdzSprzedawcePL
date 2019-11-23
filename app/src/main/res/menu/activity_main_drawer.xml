@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Moje komentarze" />
+        <item
+            android:id="@+id/nav_worst"
+            android:icon="@drawable/ic_rank_worst"
+            android:title="Najgorsi sprzedawcy" />
+        <item
+            android:id="@+id/nav_best"
+            android:icon="@drawable/ic_rank_best"
+            android:title="Najlepsi sprzedawcy" />
+        <item
+            android:id="@+id/nav_comments"
+            android:icon="@drawable/ic_comments"
+            android:title="Najczęściej komentowani" />
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/ic_privacy"
+            android:title="Polityka Prywatności" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/ic_rules"
+            android:title="Regulamin" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact"
+            android:title="Kontakt" />
+    </group>
+
+</menu>

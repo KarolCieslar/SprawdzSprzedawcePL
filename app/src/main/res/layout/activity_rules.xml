@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent"
+        tools:context="pl.globoox.sprawdzsprzedawce.RulesActivity">
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/paragraf_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:padding="5dp"
+                    android:text="§ 1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/paragrafText_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragraf_1"
+                    android:padding="10dp"
+                    android:text="Niniejszy regulamin określa zasady korzystania z serwisu SprawdzSprzedawce.pl, której właścicielem jest GloBAJT Karol Cieślar, NIP: 6141609551" />
+
+
+                <TextView
+                    android:id="@+id/paragraf_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragrafText_1"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="20dp"
+                    android:text="§ 2"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/paragrafText_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragraf_2"
+                    android:padding="10dp"
+                    android:text="SprawdzSprzedawce.pl jest serwisem internetowym, za pośrednictwem którego użytkownicy mogą sprawdzać informacje na temat użytkowników z platformy OLX.pl." />
+
+
+                <TextView
+                    android:id="@+id/paragraf_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragrafText_2"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="20dp"
+                    android:text="§ 3"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/paragrafText_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragraf_3"
+                    android:padding="10dp"
+                    android:text="Serwis SprawdzSprzedawce do działania wykorzystuje pliki cookie." />
+
+
+                <TextView
+                    android:id="@+id/paragraf_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragrafText_3"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="20dp"
+                    android:text="§ 4"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/paragrafText_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragraf_4"
+                    android:padding="10dp"
+                    android:text="1.	Aby sprawdzić informacje o konkretnym użytkowniku z platformy OLX.pl należy wpisać ID usera w formularzu na stronie głównej.\n\n2.	Wszelkie informacje dotyczące użytkowników z platformy OLX.pl są zamieszaczane anonimowo przez użytkowników SprawdzSprzedawce.pl oraz mają jedynie charakter opiniowy. Informacje mają jedynie pomóc ocenić wiarygodność sprzedających z platformy OLX.pl" />
+
+
+                <TextView
+                    android:id="@+id/paragraf_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragrafText_4"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="20dp"
+                    android:text="§ 5"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/paragrafText_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragraf_5"
+                    android:padding="10dp"
+                    android:text="1.	Użytkownicy serwisu mogą komentować konkretnych użytkowników, którzy posiadają ID takie jak na platformie OLX.pl\n\n2.	Zabrania się publikowania danych osobowych właścicieli kont z platformy OLX.pl, bezpodstawnego obrażania innych użytkowników oraz zaśmiecania serwisu poprzez informacje nieistotne.\n\n3.	Wszystkie komentarze są własnością użytkowników i użytkownicy są za nie odpowiedzialni. Właściciel serwisu nie ponosi odpowiedzialności za treść komentarzy.\n\n4.	Właściciel serwisu zastrzega sobie prawo do dowolnego moderowania oraz usuwania komentarzy.\n\n5.	Właściciel serwisu zastrzega sobie prawo do przekazywania informacji dotyczących użytkowników (adresy IP, adresy e-mail) organom ścigania jeżeli organy ścigania o takie dane wystąpią." />
+
+
+                <TextView
+                    android:id="@+id/paragraf_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragrafText_5"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="20dp"
+                    android:text="§ 6"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/paragrafText_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragraf_6"
+                    android:padding="10dp"
+                    android:text="Użytkownicy dodający komentarz i nie są rejestrowani w serwisie. Każdy komentarz dodawany jest anonimowo a podpisem jest jedynie podany pseudonim." />
+
+
+                <TextView
+                    android:id="@+id/paragraf_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragrafText_6"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="20dp"
+                    android:text="§ 7"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/paragrafText_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragraf_7"
+                    android:padding="5dp"
+                    android:text="1.	Użytkownicy nie płacą za korzystanie z serwisu. Jedyną formą zarobku serwisu są reklamy.\n\n2.	Właściciel zastrzega sobie prawo do dokonywania zmian oraz poprawiania informacji zawartych na stronie internetowej w każdym czasie i w jakimkolwiek zakresie bez wcześniejszego powiadamiania użytkowników. Bez uprzedzenia mogą być również zmieniane zasady korzystania z serwisu." />
+
+
+                <TextView
+                    android:id="@+id/paragraf_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragrafText_7"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="20dp"
+                    android:text="§ 8"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/paragrafText_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragraf_8"
+                    android:padding="10dp"
+                    android:text="1.	Właściciel nie ponosi odpowiedzialności w przypadku gdy serwis zostanie wyłączony na jakiś czas.\n\n2.	Właściciel nie ponosi odpowiedzialności za szkody powstałe wskutek przerwy w dostępie do sieci i serwisu, błędów systemu komputerowego spowodowanego przez" />
+
+
+                <TextView
+                    android:id="@+id/paragraf_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragrafText_8"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="20dp"
+                    android:text="§ 9"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/paragrafText_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/paragraf_9"
+                    android:padding="10dp"
+                    android:text="Niniejsza strona internetowa posiada linki do stron osób trzecich. Właściciel nie ponosi żadnej odpowiedzialności za treści umieszczone na tych stronach. Użytkownik decydując się na skorzystanie z linków do stron osób trzecich, czyni to na własną odpowiedzialność." />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </RelativeLayout>
+</ScrollView>

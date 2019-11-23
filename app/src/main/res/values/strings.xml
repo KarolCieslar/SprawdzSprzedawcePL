@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SprawdzSprzedawce.pl</string>
+    <string name="passNotMatch">Wprowadzone przez Ciebie hasła nie są identyczne!</string>
+    <string name="passLenghtLow">Wprowadzone hasło jest za krótkie! Twoje hasło powinno posiadać conajmniej 5 znaków!</string>
+    <string name="emailNotVaild">Podany tekst nie jest emailem!</string>
+    <string name="usernameLenghtLow">Wprowadzony nick jest za krótki! Twój nick powinien posiadać conajmniej 5 znaków!</string>
+    <string name="formEmpty">Proszę wypełnić wszystkie pola w formularzu!</string>
+    <string name="registerError">Ups.. coś nie tak:\n</string>
+    <string name="registerSuccess">Świetnie! Twoje konto zostało pomyślnie założone.</string>
+    <string name="registerSuccessButton">PRZEJDŹ DO LOGOWANIA.</string>
+    <string name="loginFailed">Logowanie nieudane! \n (Błąd: </string>
+    <string name="tryAgain">Spróbuj ponownie</string>
+    <string name="messageSendButton">Super!</string>
+    <string name="noMessagesToDisplay">Nie posiadasz wiadomosci!</string>
+    <string name="chat_enterText">Napisz coś...</string>
+    <string name="chat_emptyMessage">Wiadomość nie może być pusta!</string>
+    <string name="loadingMessage">Ladowanie wiadomosci...</string>
+    <string name="cantConnectToDatabase">Nie można połaczyć się z bazą danych!</string>
+    <string name="omptyOfferVariable">Puste pole!</string>
+    <string name="badOfferLink">Podany link nie jest poprawny!</string>
+    <string name="title_activity_navigationdraver">navigationdraver</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">325047371406714</string>
+    <string name="fb_login_protocol_scheme">fb325047371406714</string>
+</resources>

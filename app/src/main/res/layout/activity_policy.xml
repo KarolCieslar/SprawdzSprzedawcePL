@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent"
+        tools:context="pl.globoox.sprawdzsprzedawce.Policy">
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/mainText_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="DANE ZBIERANE PODCZAS KOSZYSTANIA Z SERIWSU" />
+
+                <TextView
+                    android:id="@+id/miniText_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mainText_1"
+                    android:padding="10dp"
+                    android:text="W trakcie wizyty na naszej stronie internetowej, automatycznie zbierane są dane dotyczące tej wizyty, np. adres IP, nazwa domeny, typ przeglądarki, typ systemu operacyjnego. " />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/mainText_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/miniText_1"
+                    android:paddingTop="35dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="WYKORZYSTYWANIE ZEBRANYCH DANYCH" />
+
+                <TextView
+                    android:id="@+id/miniText_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mainText_2"
+                    android:padding="10dp"
+                    android:text="W trakcie wizyty na naszej stronie internetowej, automatycznie zbierane są dane dotyczące tej wizyty, np. adres IP, nazwa domeny, typ przeglądarki, typ systemu operacyjnego. " />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/mainText_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/miniText_2"
+                    android:paddingTop="35dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="PRZECHOWYWANIE ZEBRANYCH DANYCH" />
+
+                <TextView
+                    android:id="@+id/miniText_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mainText_3"
+                    android:padding="10dp"
+                    android:text="Dane użytkownika będą przechowywane tak długo, jak długo aktywne będzie konto, dane użytkownika będą potrzebne do świadczenia usług lub dopóki jest to wymagane do wypełnienia naszych zobowiązań prawnych. Aby usunąć dodane przez Ciebie treści należy lub zażądać od nas zaprzestania wykorzystywania danych osobowych w celu świadczenia usług, należy skontaktować się z nami pod adresem skrinszot@wp.pl Na wszelkie zapytania odpowiemy w ciągu 30 dni." />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </RelativeLayout>
+</ScrollView>

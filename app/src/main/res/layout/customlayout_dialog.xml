@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editTextReportMessage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:gravity="top|left"
+        android:maxLength="300"
+        android:background="@null"
+        android:scrollbars="vertical"
+        android:ems="8"
+        android:hint="Podaj powód zgłoszenia..."
+        android:inputType="textMultiLine" />
+
+    <View
+        android:id="@+id/pasek"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_below="@id/editTextReportMessage"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/buttonSendReport"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/blue_btn_bkg"
+        android:text="ZGŁOŚ"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonCancelReport"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/red_btn_bkg"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="20dp"
+        android:text="ANULUJ"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
