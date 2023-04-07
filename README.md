@@ -1,4 +1,8 @@
+
+(Projekt bardzo stary, ukazujący moje początki z programowani aplikacji na Androida)
+
 # SprawdzSprzedawcePL
+
 Aplikacja dla serwisu SprawdzSprzedawce.pl, który sam stworzyłem.  
 Serwis gromadził opinie na temat użytkowników OLX oraz numerów kont bankowych.  
 Po wpisaniu numeru lub linka do ogloszenia OLX pobierane zostawały dane na temat użytkownika.  
