@@ -1,5 +1,9 @@
 
-(Projekt bardzo stary, ukazujący moje początki z programowani aplikacji na Androida)
+***Projekt bardzo stary, ukazujący moje początki z programowani aplikacji na Androida.  
+ Zachęcam do obejrzenia najnowszego projektu, który w większym stopniu ukazuję   
+ moją wiedzę i umiejętności https://github.com/KarolCieslar/WyjazdyOSP)***
+
+ --------------------------------------------------------
 
 # SprawdzSprzedawcePL
 
